@@ -391,13 +391,105 @@
         0
       ],
       "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        2.6333334445953369
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        0.10430732369422913,
+        0.084327191114425659,
+        -0
+      ],
+      "min": [
+        0.02535787969827652,
+        0.0025026947259902954,
+        -0.10949325561523438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 320,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        2.6333334445953369
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 80,
+      "max": [
+        0.99865704774856567,
+        0.27495163679122925,
+        0.96806806325912476,
+        0.74868494272232056
+      ],
+      "min": [
+        -0.69449830055236816,
+        -0.24781093001365662,
+        -0.98636209964752197,
+        -0.25277018547058105
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 4,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 24,
+          "interpolation": "LINEAR",
+          "output": 25
+        },
+        {
+          "input": 26,
+          "interpolation": "LINEAR",
+          "output": 27
+        }
+      ]
     }
   ],
   "asset": {
     "extras": {
       "author": "artefactory.phg (https://sketchfab.com/artefactory.phg)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/2b8f72a5454c4502b6080c50476cc548",
+      "source": "https://sketchfab.com/models/864c0c41f06c48eca314a4b036e26266",
       "title": "noria2"
     },
     "generator": "Sketchfab-3.34.3",
@@ -434,11 +526,31 @@
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteOffset": 11943984,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 960,
+      "byteOffset": 11944624,
+      "byteStride": 12,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1280,
+      "byteOffset": 11945584,
+      "byteStride": 16,
+      "name": "floatBufferViews"
     }
   ],
   "buffers": [
     {
-      "byteLength": 11943984,
+      "byteLength": 11946864,
       "uri": "scene.bin"
     }
   ],
@@ -458,17 +570,17 @@
       "name": "PM3D_Cube3D_1_TXTR",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.97169799999999995,
-          0.97169799999999995,
-          0.97169799999999995,
+          1,
+          1,
+          1,
           1
         ],
         "baseColorTexture": {
           "index": 0,
           "texCoord": 0
         },
-        "metallicFactor": 1,
-        "roughnessFactor": 0.32000000000000001
+        "metallicFactor": 0.7578125,
+        "roughnessFactor": 0.2421875
       }
     },
     {
@@ -613,25 +725,18 @@
         6,
         7
       ],
-      "matrix": [
-        -0.87221477056469832,
-        -0.48912308676729926,
+      "name": "noria_2",
+      "rotation": [
         0,
         0,
-        0.48912308676729926,
-        -0.87221477056469832,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
+        0.96752643585205078,
+        -0.25276988744735718
+      ],
+      "translation": [
         0.039590355008840561,
         0.010364999063313007,
-        0,
-        1
-      ],
-      "name": "noria_2"
+        0
+      ]
     },
     {
       "mesh": 0,
